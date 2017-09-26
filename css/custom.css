@@ -1,0 +1,126 @@
+/* .navbar {
+	background-color: #f3f3f3;
+	color: #111111;
+}
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav > li > a,.navbar-inverse .btn-link {
+	color: #111111;
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+} */
+a:hover {
+	text-decoration: none;
+}
+/*
+.btn-primary {
+	background-color: #4964D4;
+}
+.btn-danger {
+	background-color: #FF8E1B;
+}																
+.btn-success {
+	background-color: #5BC1DE;  
+}
+.btn-warning {
+	background-color: #FFD063;
+}
+.btn-info {
+	background-color: #38DC6A;
+}
+
+.btn-default {
+	background-color: #39ACCD;
+}
+*/
+  /* Content-Wrapper Styles */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 105px;
+  min-height: 100%;
+  font-family: 'Amiro', sans-serif;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 84%;
+}
+/* Footer Styles */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  opacity: .95;
+  background-color: #f3f3f3;
+}
+@media only screen and (max-width: 769px){
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {padding-bottom: 5px;}
+	.content-wrapper {width: 91%;}
+}
+#backToTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 8px 15px 8px 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+	    text-transform: uppercase;
+    border: none;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+	color: #ffffff;
+    background-color: #e51c23;
+    border-color: transparent;
+	    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 16px;
+    font-size: 13px;
+    line-height: 1.846;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#backToTop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.page-header {
+	margin-top: 12px;
+}
